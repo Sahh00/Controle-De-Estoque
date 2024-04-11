@@ -1,0 +1,18 @@
+.resultado {
+    position: relative;
+    left: 670px;
+}
+
+.ButtonDados {
+    width: 100px;
+    position: relative;
+    left: 650px;
+    top: 40px;
+}
+
+.PlanilhaDados {
+    width: 100px;
+    position: relative;
+    left: 650px;
+    top: 40px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/StylePaginas/NavBar.css">
+<link rel="stylesheet" href="/StylePaginas/Home.css">
+<script src="/PaginasJS/Home.js"></script>
+<title>Controle de Estoque</title>
+
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="/Paginas/Home.html">Home</a>
+  <a href="/Paginas/Tabela.html">Planilha</a>
+  <a href="#about">Sobre</a>
+  <a href="#contact">Contato</a>
+</div>
+
+<div class="content">
+  <form action="#" class="CadastroProdutos">
+    <h2>Cadastro de novos produtos</h2>
+
+    <div>
+      <label for="#">Nome do produto: <input type="text" id="NomeProduto" placeholder="Digite o produto..."></label>
+    </div>
+
+    <div>
+      <label for="#">Código do produto: <input type="text" id="CodigoProduto" placeholder="Digite o Código..."></label>
+    </div>
+    <div>
+      <label for="#">Quantidade do produto: <input type="number" id="QuantidadeProduto"></label>
+    </div>
+
+    <div class="DivButton">
+      <button onclick="Cadastro()">Cadastrar</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

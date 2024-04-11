@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/StylePaginas/NavBar.css">
+    <link rel="stylesheet" href="/StylePaginas/Tabela.css">
+    <script src="/PaginasJS/Tabela.js"></script>
+    <title>Planilha</title>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="/Paginas/Home.html">Home</a>
+        <a href="/Paginas/Tabela.html">Planilha</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Contato</a>
+      </div>
+
+      <div class="PlanilhaDados">
+        <table>
+            <tr>
+              <th>Produto</th>
+              <th>Código</th>
+              <th>Quantidade</th>
+            </tr>
+            <tr id="TabelaDados">
+              
+            </tr>
+        </table>
+      </div>
+
+      <div>
+        <input type="button"  value="Recuperar Dados" onclick="recuperar()" class="ButtonDados"></input>
+      </div>
+     
+</body>
+</html>
